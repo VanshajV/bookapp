@@ -19,11 +19,17 @@ export default function About() {
         
 
       </div>
-      <div className='bg-gray-300 h-96 w-full flex justify-center items-center'>
-      <img className='w-28' src="image-removebg-preview (1) (2).png" alt="" />
-        <img className='w-28' src="image-removebg-preview (2) (1).png" alt="" />
-        <img className='w-28' src="image-removebg-preview (3) (2).png" alt="" />
-          
+      
+      <div className='bg-gray-300 h-[800px] w-full flex flex-col justify-center '>
+        <h1 className='font-bold text-center text-5xl my-10'>The Re.Book Mission</h1>
+        <div className='flex justify-center items-center space-x-10'>
+      <img className='w-14' src="ecology.png" alt="" />
+        <img className='w-14' src="recycling-bin.png" alt="" />
+        <img className='w-14' src="recycle-symbol-of-three-arrows.png" alt="" />
+        </div>
+        <div className='flex justify-center'>
+        <p className=' block w-96 text-center my-10'>We believe in promoting sustainable practices in the paper industry focusing primarily on the reuse and secondarily on the recycling of books used in institutes.</p>
+        </div>
         </div>
       <Fea></Fea>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <p className='text-4xl font-extrabold'>"Waste isn't waste until we waste it."</p>
         
       </div>
-      <button className=' text-white m-2 text-xl bg-red-800 rounded-lg px-2 py-2 font-bold'>Explore More!</button>
+      <Link to="/Books" className=' text-white m-2 text-xl bg-red-800 rounded-lg px-2 py-2 font-bold'>Explore More!</Link>
       </div>
       
    
