@@ -11,20 +11,24 @@ import Books from './components/Books';
 import Signup from './components/Signup';
 
 
+
+
 function App() {
   return (
    <div>
+  
     
     { <BrowserRouter>
     
       <Routes>
-        <Route path="/Home" element={ <Home/> } />
+        <Route path='/Home' element={ <Home/> } />
         <Route path="/About" element={ <About/> } />\
         <Route path="/Books" element={ <Books/> } />
         <Route path="/Signup" element={ <Signup/> } />
         <Route path="/Login" element={ <Login/> } />
       </Routes>
     </BrowserRouter> }
+  
     
    
     </div>

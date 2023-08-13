@@ -22,8 +22,8 @@ export default function Navbar() {
         <ul className='flex space-x-7 text-lg'>
             <li><Link to='/Home'>Home</Link></li>
             <li><Link to='/Books'>Books</Link></li>
-            <li>Community</li>
             <li><Link to='/About'>About Us</Link></li>
+            <li>Contact us</li>
         </ul>
     </div>
     <div id="show" className={`md:hidden   opacity-95 fixed flex justify-center   rounded-b-xl items-center  w-[30vw] h-[35vh] border-white bg-red-900 ${show?' left-2 -top-[410px]':' left-2 top-14'}`}>

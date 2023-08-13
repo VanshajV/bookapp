@@ -20,7 +20,7 @@ export default function Login() {
           <label>Password</label>
         </div>
         <div className="pass">Forgot Password?</div>
-        <input type="submit" value="Login"></input>
+        <button><Link to="/Home">Login</Link></button>
         <div className="signup_link">
           Not a member? <Link to="/Signup">Signup</Link>
         </div>
