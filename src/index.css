@@ -31,14 +31,14 @@ li:hover{
 
 
 #bg{
-  background-image: url('C:\Users\softe\OneDrive\Desktop\BOOK\myapp\public\bg (2).jpg') ;
+  background-image: url("https://i.ibb.co/FhQgV3Q/bg-2.jpg") ;
   
 }
 #show{
   transition: 300ms;
 }
 #bg2{
-  background-image: url("C:\Users\softe\OneDrive\Desktop\BOOK\myapp\public\Untitled design (1).png");
+  background-image: url("https://i.ibb.co/1qRm31p/Untitled-design-1-1.png");
 
 
 }
