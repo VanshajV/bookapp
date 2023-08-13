@@ -19,11 +19,13 @@ export default function Home() {
       <button className=' text-white m-2 text-xl bg-red-800 rounded-lg px-2 py-2 font-bold'>Explore More!</button>
       </div>
       
+   
 
 
 
 
     </div>
+  
     </div>
   )
 }

@@ -10,12 +10,13 @@ import Fea from './components/Fea';
 import Books from './components/Books';
 import Signup from './components/Signup';
 
+
 function App() {
   return (
-   
-    <div>
-     
-    <BrowserRouter>
+   <div>
+    
+    { <BrowserRouter>
+    
       <Routes>
         <Route path="/Home" element={ <Home/> } />
         <Route path="/About" element={ <About/> } />\
@@ -23,8 +24,9 @@ function App() {
         <Route path="/Signup" element={ <Signup/> } />
         <Route path="/Login" element={ <Login/> } />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> }
     
+   
     </div>
   
   );
